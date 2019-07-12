@@ -1,4 +1,4 @@
-def new_hash 
+def new_hash(hash)
   return hash_new = {}
 end
 
