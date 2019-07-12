@@ -11,7 +11,7 @@ describe "working with hashes" do
       end
     end
 
-def new_hash{hash}
+def new_hash(hash)
   return hash.new()
 end 
 
