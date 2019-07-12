@@ -12,7 +12,7 @@ describe "working with hashes" do
     end
 
 def new_hash(hash)
-  return hash.new(hash)
+  return hash.new()
 end 
 
     describe "my_hash" do
