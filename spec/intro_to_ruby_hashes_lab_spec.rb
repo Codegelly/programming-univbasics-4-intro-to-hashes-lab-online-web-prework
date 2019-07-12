@@ -11,8 +11,8 @@ describe "working with hashes" do
       end
     end
 
-def new_hash()
-  return hash.new(hash)
+def new_hash(hash)
+  return hash.new()
 end 
 
     describe "my_hash" do
