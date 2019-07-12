@@ -1,6 +1,8 @@
 require_relative 'spec_helper'
 require_relative '../intro_to_ruby_hashes_lab.rb'
 
+new_hash {}
+
 describe "working with hashes" do
 
   describe "instantiating" do
@@ -10,6 +12,9 @@ describe "working with hashes" do
       end
     end
 
+def new_hash(hash)
+  return hash.new(hash)
+end 
 
     describe "my_hash" do
       it "creates and returns a valid hash that contains key/value pairs of your choice" do
